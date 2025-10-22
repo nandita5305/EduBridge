@@ -27,6 +27,12 @@ import menu_icon_dark from './menu_icon_dark.svg'
 import sun from './sun.png'
 import moon from './moon.png'
 
+// Assuming 'learnin' was a typo and you need the four specific images
+import signupImage from './signup.svg' // Assuming these are siblings to this file
+import learningImage from './learning.svg'
+import certificateImage from './certificate.svg'
+import startImage from './start.svg'
+
 
 export const company_logos = [
   microsoft_logo,
@@ -59,7 +65,12 @@ const assets = {
   logo_dark,
   menu_icon_dark,
   sun,
-  moon
+  moon,
+  // ADDED the specific step images here for easy access
+  signupImage,
+  learningImage,
+  certificateImage,
+  startImage,
 }
 
 export default assets
